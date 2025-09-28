@@ -1290,6 +1290,20 @@ h1 {
   .footer-center-right {
     width: 100%;
   }
+  .features-head,
+  .research-title {
+    flex-direction: column;
+    align-items: start;
+    row-gap: 2rem;
+  }
+  .features,
+  .article {
+    padding-top: 2rem;
+  }
+  .features-head a,
+  .research-title a {
+    margin-left: -1rem;
+  }
   .left-hero-media:hover video,
   .right-hero-card:hover .right-hero-media video,
   .right-hero-card:hover .right-hero-media img,
